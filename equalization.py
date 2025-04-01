@@ -3,7 +3,7 @@
 import cv2
 from matplotlib import pyplot as plt
 from PIL import Image
-image = cv2.imread('data/aloshy.jpg')
+image = cv2.imread('data/martha.png')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 equalized_gray = cv2.equalizeHist(gray)
 fig, axes = plt.subplots(1, 2, figsize=(10, 5))
